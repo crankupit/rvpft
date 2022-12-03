@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.checks.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "commonjs",
+    "target": "ES2021",
+    "lib": ["ES2021", "dom", "dom.iterable"],
+    "baseUrl": "src",
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

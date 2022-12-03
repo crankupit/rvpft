@@ -1,0 +1,33 @@
+{
+  "name": "@rvpft/db",
+  "version": "1.0.0",
+  "description": "This is the boilerplate for the nodeJS app using React-Vite-Prisma-Fastify-Typescript",
+  "author": "Sahil Chraya <sahil@crankupit.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/crankupit/rvpft#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crankupit/rvpft.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crankupit/rvpft/issues"
+  },
+  "keywords": [
+    "React",
+    "Vite",
+    "Prisma",
+    "Fastify",
+    "TypeScript",
+    "Nodejs"
+  ],
+  "main": "src/prisma.ts",
+  "scripts": {
+    "gen": "prisma generate",
+    "studio": "prisma studio",
+    "build": "tsc -b tsconfig.json"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.7.1",
+    "dotenv": "^16.0.3"
+  }
+}

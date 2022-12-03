@@ -1,0 +1,33 @@
+{
+  "name": "@rvpft/client",
+  "version": "1.0.0",
+  "description": "This is the boilerplate for the nodeJS app using React-Vite-Prisma-Fastify-Typescript",
+  "author": "Sahil Chraya <sahil@crankupit.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/crankupit/rvpft#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crankupit/rvpft.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crankupit/rvpft/issues"
+  },
+  "keywords": [
+    "React",
+    "Vite",
+    "Prisma",
+    "Fastify",
+    "TypeScript",
+    "Nodejs"
+  ],
+  "scripts": {
+    "dev": "vite dev",
+    "start": "vite build && vite preview",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.4"
+  }
+}
